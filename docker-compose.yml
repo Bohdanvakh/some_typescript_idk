@@ -1,0 +1,9 @@
+services:
+  ts-env:
+    build: .
+    container_name: typescript_env
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: bash
+    tty: true
