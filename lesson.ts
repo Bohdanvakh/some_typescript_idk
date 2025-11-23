@@ -1,5 +1,5 @@
-let userAge, number;
-let userName, string;
+let userAge: number;
+let userName: string;
 
 userName = "Bohdan";
 
